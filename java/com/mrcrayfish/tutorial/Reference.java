@@ -1,12 +1,10 @@
 package com.mrcrayfish.tutorial;
 
-import net.minecraft.creativetab.CreativeTabs;
-
 public class Reference {
 	
-	public static final String MOD_ID = "CTM";
-	public static final String NAME = "Rug's Giant Food Mod";
-	public static final String VERSION = "1.2";
+	public static final String MOD_ID = "ctm";
+	public static final String NAME = "MrCrayfish's Tutorial Mod";
+	public static final String VERSION = "1.0";
 	public static final String ACCEPTED_VERSIONS = "[1.9.4]";
 	
 	public static final String CLIENT_PROXY_CLASS = "com.mrcrayfish.tutorial.proxy.ClientProxy";
@@ -17,8 +15,7 @@ public class Reference {
 		CRACKER("cracker", "ItemCracker"),
 		SEEDBOMB("seedbomb", "ItemSeedbomb"),
 		BURGER("burger", "ItemBurger"),
-		JAR("jar","ItemJar"),
-		BURGERCAKE("burgercake","ItemBurgerCake");
+		JAR("jar","ItemJar");
 		
 		
 		private String unlocalizedName;
@@ -36,22 +33,13 @@ public class Reference {
 		public String getRegistryName() {
 			return registryName;
 		}
-
-		public void setCreativeTab(CreativeTabs tabs) {
-			BURGER.setCreativeTab(CreativeTabs.FOOD);
-			
-		}
-		
 	}
-	
-	
 	
 	public static enum TutorialBlocks {
 		CHEESE("cheese", "BlockCheese"),
 		CRACKER("cracker","BlockCracker"),
 		BURGER("burger", "BlockBurger"), 
-		JAR("jar", "BlockJar"), 
-		BURGERCAKE ("burgercake", "ItemBurgerCake");
+		JAR("jar", "BlockJar");
 		
 		private String unlocalizedName;
 		private String registryName;

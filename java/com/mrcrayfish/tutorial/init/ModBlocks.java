@@ -19,7 +19,6 @@ public class ModBlocks {
 	public static Block burger;
 	public static Block jar;
 	
-	
 	public static void init() {
 		cheese = new BlockCheese();
 		cracker = new BlockCracker();
@@ -32,7 +31,6 @@ public class ModBlocks {
 		registerBlock(cracker);
 		registerBlock(burger);
 		registerBlock(jar);
-		
 	}
 	
 	private static void registerBlock(Block block) {
@@ -47,7 +45,6 @@ public class ModBlocks {
 		registerRender(cracker);
 		registerRender(burger);
 		registerRender(jar);
-		
 	}
 	
 	private static void registerRender(Block block) {

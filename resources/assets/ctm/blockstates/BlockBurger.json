@@ -1,5 +1,5 @@
 {
-    "variants": {
-        "normal": { "model": "ctm:/burger" }
-	}
+  "variants": {
+  "normal": { "model": "ctm:burger" }
+  }
 }
