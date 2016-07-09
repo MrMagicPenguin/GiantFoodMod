@@ -1,0 +1,8 @@
+item.cheese.name=Cheese
+item.cracker.name=Cracker
+item.seedbomb.name=Seed Bomb
+
+tile.cracker.name=Cracker Block
+tile.cheese.name=Cheese Block
+tile.burger.name=Burger Block
+tile.jar.name=Jar
