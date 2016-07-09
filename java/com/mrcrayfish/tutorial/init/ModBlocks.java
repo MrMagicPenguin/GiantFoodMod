@@ -1,6 +1,7 @@
 package com.mrcrayfish.tutorial.init;
 
 import com.mrcrayfish.tutorial.blocks.BlockBurger;
+import com.mrcrayfish.tutorial.blocks.BlockBurgerCake;
 import com.mrcrayfish.tutorial.blocks.BlockCheese;
 import com.mrcrayfish.tutorial.blocks.BlockCracker;
 import com.mrcrayfish.tutorial.blocks.BlockJar;
@@ -18,12 +19,14 @@ public class ModBlocks {
 	public static Block cracker;
 	public static Block burger;
 	public static Block jar;
+	public static Block burgercake;
 	
 	public static void init() {
 		cheese = new BlockCheese();
 		cracker = new BlockCracker();
 		burger = new BlockBurger();
 		jar = new BlockJar();
+		burgercake = new BlockBurgerCake() ;
 	}
 	
 	public static void register() {
@@ -31,6 +34,7 @@ public class ModBlocks {
 		registerBlock(cracker);
 		registerBlock(burger);
 		registerBlock(jar);
+		registerBlock(burgercake);
 	}
 	
 	private static void registerBlock(Block block) {
@@ -45,6 +49,7 @@ public class ModBlocks {
 		registerRender(cracker);
 		registerRender(burger);
 		registerRender(jar);
+		registerRender(burgercake);
 	}
 	
 	private static void registerRender(Block block) {

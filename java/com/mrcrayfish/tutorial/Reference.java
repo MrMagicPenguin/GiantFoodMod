@@ -15,7 +15,8 @@ public class Reference {
 		CRACKER("cracker", "ItemCracker"),
 		SEEDBOMB("seedbomb", "ItemSeedbomb"),
 		BURGER("burger", "ItemBurger"),
-		JAR("jar","ItemJar");
+		JAR("jar","ItemJar"),
+		BURGERCAKE("burgercake","ItemBurgerCake");
 		
 		
 		private String unlocalizedName;
@@ -39,7 +40,8 @@ public class Reference {
 		CHEESE("cheese", "BlockCheese"),
 		CRACKER("cracker","BlockCracker"),
 		BURGER("burger", "BlockBurger"), 
-		JAR("jar", "BlockJar");
+		JAR("jar", "BlockJar"), 
+		BURGERCAKE ("burgercake", "ItemBurgerCake");
 		
 		private String unlocalizedName;
 		private String registryName;
