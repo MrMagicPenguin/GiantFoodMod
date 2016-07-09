@@ -19,8 +19,12 @@ public class ModItems {
 		cheese = new ItemCheese();
 		cracker = new ItemCracker();
 		seedbomb = new ItemSeedbomb();
+		
+		
+		
 	}
 	
+
 	public static void register() {
 		GameRegistry.register(cheese);
 		GameRegistry.register(cracker);

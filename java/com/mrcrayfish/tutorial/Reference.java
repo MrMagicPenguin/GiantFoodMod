@@ -1,5 +1,7 @@
 package com.mrcrayfish.tutorial;
 
+import net.minecraft.creativetab.CreativeTabs;
+
 public class Reference {
 	
 	public static final String MOD_ID = "CTM";
@@ -34,7 +36,15 @@ public class Reference {
 		public String getRegistryName() {
 			return registryName;
 		}
+
+		public void setCreativeTab(CreativeTabs tabs) {
+			BURGER.setCreativeTab(CreativeTabs.FOOD);
+			
+		}
+		
 	}
+	
+	
 	
 	public static enum TutorialBlocks {
 		CHEESE("cheese", "BlockCheese"),

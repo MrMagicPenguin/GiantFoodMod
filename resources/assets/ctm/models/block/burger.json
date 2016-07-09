@@ -1,6 +1,7 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
     "textures": {
+    	"particle": "ctm:blocks/bunsides",
         "0": "ctm:blocks/bunsides",
         "1": "ctm:blocks/bunsides",
         "2": "ctm:blocks/bunnorth",
