@@ -1,0 +1,6 @@
+{
+    "parent": "ctm:blocks/",
+    "textures": {
+        "layer0": "items/cake"
+    }
+}

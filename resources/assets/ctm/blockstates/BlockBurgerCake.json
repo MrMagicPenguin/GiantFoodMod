@@ -1,0 +1,11 @@
+{
+ "variants": {
+ "bites=0": { "model": "ctm:burger" },
+ "bites=1": { "model": "ctm:burgerbite1" },
+ "bites=2": { "model": "ctm:burgerbite2" },
+ "bites=3": { "model": "ctm:burgerbite3" },
+ "bites=4": { "model": "ctm:burgerbite4" },
+ "bites=5": { "model": "ctm:burgerbite5" },
+ "bites=6": {"model" : "ctm:cracker"}
+ }
+}

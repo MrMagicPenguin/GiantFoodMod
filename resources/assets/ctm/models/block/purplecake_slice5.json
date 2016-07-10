@@ -1,0 +1,23 @@
+{
+    "textures": {
+        "particle": "ctm:blocks/purplecake_side",
+        "bottom": "ctm:blocks/purplecake_bottom",
+        "top": "ctm:blocks/purplecake_top",
+        "side": "ctm:blocks/purplecake_side",
+        "inside": "ctm:blocks/purplecake_inner"
+    },
+    "elements": [
+        {   "from": [ 11, 0, 1 ],
+            "to": [ 15, 8, 15 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "cullface": "down" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#inside" },
+                "east":  { "texture": "#side" }
+            }
+        }
+    ]
+}
+

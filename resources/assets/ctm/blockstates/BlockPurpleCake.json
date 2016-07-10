@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "bites=0": { "model": "ctm:blocks/purplecake_uneaten" },
+        "bites=1": { "model": "ctm:blocks/purplecake_slice1" },
+        "bites=2": { "model": "ctm:blocks/purplecake_slice2" },
+        "bites=3": { "model": "ctm:blocks/purplecake_slice3" },
+        "bites=4": { "model": "ctm:blocks/purplecake_slice4" },
+        "bites=5": { "model": "ctm:blocks/purplecake_slice5" },
+        "bites=6": { "model": "ctm:blocks/purplecake_slice6" }
+    }
+}
