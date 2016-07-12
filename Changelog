@@ -1,0 +1,8 @@
+v1.2
+- Added method eatGiantFood()
+- Added block BlockBurgerCake to test eating mechanic
+- Added textures & models for edible burger
+
+v.1.0 
+- Added many tutorial blocks from MrCrayfish's tut mod.
+- Added BlockBurger
