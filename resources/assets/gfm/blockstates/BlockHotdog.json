@@ -1,0 +1,11 @@
+{
+ "variants": {
+ "bites=0": { "model": "gfm:hotdog" },
+ "bites=1": { "model": "gfm:hotdogbite1" },
+ "bites=2": { "model": "gfm:hotdogbite2" },
+ "bites=3": { "model": "gfm:hotdogbite3" },
+ "bites=4": { "model": "gfm:hotdogbite4" },
+ "bites=5": { "model": "gfm:hotdogbite5" },
+ "bites=6": {"model" : "gfm:hotdogbite6"}
+ }
+}

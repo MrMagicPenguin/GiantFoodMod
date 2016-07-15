@@ -1,0 +1,69 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+    "textures": {
+    "particle": "gfm:blocks/hotdogside",
+        "0": "gfm:blocks/hotdogbunsides",
+        "1": "gfm:blocks/hotdogbunnorth",
+        "2": "gfm:blocks/hotdogside",
+        "3": "gfm:blocks/hotdog",
+        "4": "gfm:blocks/hotdogback"
+    },
+    "elements": [
+        {
+            "name": "BunSideBottom",
+            "from": [ 2.0, 0.0, 11.0 ], 
+            "to": [ 14.0, 3.0, 13.0 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 2.0, 16.0, 16.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 3.0, 3.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 4.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 3.0, 3.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 4.0 ] },
+                "down": { "texture": "#0", "uv": [ 0.0, 0.0, 12.0, 2.0 ] }
+            }
+        },
+        {
+            "name": "BunSideEast",
+            "from": [ 12.0, 0.0, 3.0 ], 
+            "to": [ 14.0, 3.0, 11.0 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 3.0, 1.0, 6.0, 15.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 8.0, 3.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 3.0, 14.0 ] },
+                "west": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 2.0, 8.0 ] },
+                "down": { "texture": "#0", "uv": [ 0.0, 0.0, 2.0, 8.0 ] }
+            }
+        },
+        {
+            "name": "BunSideWest",
+            "from": [ 2.0, 0.0, 3.0 ], 
+            "to": [ 4.0, 3.0, 11.0 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 11.0, 2.0, 14.0, 16.0 ] },
+                "east": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 3.0, 14.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 8.0, 3.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 2.0, 12.0 ] },
+                "down": { "texture": "#0", "uv": [ 0.0, 0.0, 2.0, 8.0 ] }
+            }
+        },
+        {
+            "name": "Meat",
+            "from": [ 4.0, 0.0, 3.0 ], 
+            "to": [ 12.0, 4.0, 11.0 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#3", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "east": { "texture": "#3", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "south": { "texture": "#3", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "west": { "texture": "#3", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "up": { "texture": "#4", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "down": { "texture": "#3", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        }
+    ]
+}
