@@ -1,3 +1,10 @@
+v1.3
+- Removed BlockBurgerCake
+- Removed BlockPurpleCake
+- Moved BlockBurgerCake functionality to BlockBurger
+- Created BlockHotdog based on BlockBurger functionality
+- Added BlockHotdog, BlockSoda, BlockRamen and Block Fries
+- Added resources for BlockHotdog
 v1.2
 - Added method eatGiantFood()
 - Added block BlockBurgerCake to test eating mechanic
