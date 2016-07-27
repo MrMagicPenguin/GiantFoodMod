@@ -1,0 +1,9 @@
+{
+ "variants": {
+ "bites=0": { "model": "gfm:donut" },
+ "bites=1": { "model": "gfm:donutbite1" },
+ "bites=2": { "model": "gfm:burgerbite2" },
+ "bites=3": { "model": "gfm:burgerbite3" },
+ "bites=4": { "model": "gfm:burgerbite4" }
+ }
+}

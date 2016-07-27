@@ -33,8 +33,8 @@ public class BlockDonut extends Block
         super(Material.CAKE);
         this.setDefaultState(this.blockState.getBaseState().withProperty(BITES, Integer.valueOf(0)));
         this.setTickRandomly(true);
-        setUnlocalizedName(Reference.TutorialBlocks.BURGER.getUnlocalizedName());
-		setRegistryName(Reference.TutorialBlocks.BURGER.getRegistryName());
+        setUnlocalizedName(Reference.TutorialBlocks.DONUT.getUnlocalizedName());
+		setRegistryName(Reference.TutorialBlocks.DONUT.getRegistryName());
 		setHardness(1.0F);
     }
 
@@ -73,7 +73,7 @@ public class BlockDonut extends Block
             player.getFoodStats().addStats(2, 0.1F);
             int i = ((Integer)state.getValue(BITES)).intValue();
 
-            if (i < 6)
+            if (i < 4)
             {
                 worldIn.setBlockState(pos, state.withProperty(BITES, Integer.valueOf(i + 1)), 3);
             }
