@@ -1,0 +1,64 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+    "textures": {
+        "0": "blocks/ketchup"
+    },
+    "elements": [
+        {
+            "name": "Ketchup1",
+            "from": [ 8.0, 10.0, 2.0 ], 
+            "to": [ 9.0, 11.0, 5.0 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 3.0, 1.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 3.0 ] },
+                "down": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 3.0 ] }
+            }
+        },
+        {
+            "name": "Ketchup2",
+            "from": [ 9.0, 10.0, 5.0 ], 
+            "to": [ 10.0, 11.0, 7.0 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+                "down": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 2.0 ] }
+            }
+        },
+        {
+            "name": "Ketchup3",
+            "from": [ 8.0, 10.0, 7.0 ], 
+            "to": [ 9.0, 11.0, 11.0 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 4.0 ] },
+                "down": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 4.0 ] }
+            }
+        },
+        {
+            "name": "Ketchup4",
+            "from": [ 7.0, 10.0, 11.0 ], 
+            "to": [ 8.0, 11.0, 13.0 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+                "down": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 2.0 ] }
+            }
+        }
+    ]
+}
