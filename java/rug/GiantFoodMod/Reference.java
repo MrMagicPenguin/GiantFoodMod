@@ -14,8 +14,12 @@ public class Reference {
 		CHEESE("cheese", "ItemCheese"),
 		CRACKER("cracker", "ItemCracker"),
 		JAR("jar","ItemJar"),
+		TOMATO("tomato", "ItemTomato"),
 		SEEDBOMB("seedbomb", "ItemSeedbomb"),
 		BURGER("burger", "ItemBurger"),
+		BEEFBURGERMEAT("beef_burgermeat", "ItemBeefBurgerMeat"),
+		PORKBURGERMEAT("pork_burgermeat", "ItemPorkBurgerMeat"),
+		LETTUCE("lettuce","ItemLettuce"),
 		HOTDOG("hotdog", "ItemHotdog"),
 		DONUT("donut", "ItemDonut");
 	
@@ -38,11 +42,15 @@ public class Reference {
 	
 	public static enum TutorialBlocks {
 		CHEESE("cheese", "BlockCheese"),
-		CRACKER("cracker","BlockCracker"),
-		BURGER("burger", "BlockBurger"), 
+		CRACKER("cracker","BlockBread"),
+		BURGER("burger", "BlockBurger"),
+		BEEFBURGERMEAT("beefburgermeat", "BlockBeefBurgerMeat"),
+		PORKBURGERMEAT("pork_burgermeat", "BlockPorkBurgerMeat"),
 		JAR("jar", "BlockJar"), 
 		HOTDOG("hotdog", "BlockHotdog"),
-		DONUT("donut", "BlockDonut");
+		DONUT("donut", "BlockDonut"),
+		TOMATO("tomato", "BlockTomato"),
+		LETTUCE("lettuce","BlockLettuce");
 		
 		private String unlocalizedName;
 		private String registryName;

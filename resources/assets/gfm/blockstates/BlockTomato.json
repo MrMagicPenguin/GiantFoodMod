@@ -1,0 +1,6 @@
+{
+ "variants": {
+ "bites=0": { "model": "gfm:tomato" },
+ "bites=1": { "model": "gfm:jar" }
+ }
+}

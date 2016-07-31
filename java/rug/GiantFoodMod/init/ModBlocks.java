@@ -6,12 +6,16 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import rug.GiantFoodMod.blocks.BlockBeefBurgerMeat;
+import rug.GiantFoodMod.blocks.BlockBread;
 import rug.GiantFoodMod.blocks.BlockBurger;
 import rug.GiantFoodMod.blocks.BlockCheese;
-import rug.GiantFoodMod.blocks.BlockCracker;
 import rug.GiantFoodMod.blocks.BlockDonut;
 import rug.GiantFoodMod.blocks.BlockHotdog;
 import rug.GiantFoodMod.blocks.BlockJar;
+import rug.GiantFoodMod.blocks.BlockLettuce;
+import rug.GiantFoodMod.blocks.BlockPorkBurgerMeat;
+import rug.GiantFoodMod.blocks.BlockTomato;
 
 public class ModBlocks {
 	
@@ -21,14 +25,22 @@ public class ModBlocks {
 	public static Block jar;
 	public static Block hotdog;
 	public static Block donut;
+	public static Block tomato;
+	public static Block lettuce;
+	public static Block beef_burgermeat;
+	public static Block pork_burgermeat;
 	
 	public static void init() {
 		cheese = new BlockCheese();
-		cracker = new BlockCracker();
+		cracker = new BlockBread();
 		burger = new BlockBurger();
 		jar = new BlockJar();
 		hotdog = new BlockHotdog();
 		donut = new BlockDonut();
+		tomato = new BlockTomato();
+		lettuce = new BlockLettuce();
+		beef_burgermeat = new BlockBeefBurgerMeat();
+		pork_burgermeat = new BlockPorkBurgerMeat();
 	}
 	
 	public static void register() {
@@ -38,6 +50,11 @@ public class ModBlocks {
 		registerBlock(jar);
 		registerBlock(hotdog);
 		registerBlock(donut);
+		registerBlock(tomato);
+		registerBlock(lettuce);
+		registerBlock(beef_burgermeat);
+		registerBlock(pork_burgermeat);
+		
 	}
 	
 	private static void registerBlock(Block block) {
@@ -54,6 +71,10 @@ public class ModBlocks {
 		registerRender(jar);
 		registerRender(hotdog);
 		registerRender(donut);
+		registerRender(tomato);
+		registerRender(lettuce);
+		registerRender(beef_burgermeat);
+		registerRender(pork_burgermeat);
 	}
 	
 	private static void registerRender(Block block) {

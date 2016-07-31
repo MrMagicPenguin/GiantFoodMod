@@ -1,0 +1,5 @@
+{
+ "variants": {
+ "bites=0": { "model": "gfm:grilledporkmeat" }
+ }
+}

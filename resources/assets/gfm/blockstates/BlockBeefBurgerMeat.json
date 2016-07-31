@@ -1,0 +1,6 @@
+{
+ "variants": {
+ "bites=0": { "model": "gfm:beef"},
+ "bites=1":{"model": "gfm:jar"}
+ }
+}
